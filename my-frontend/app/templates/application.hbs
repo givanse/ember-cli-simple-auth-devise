@@ -3,5 +3,11 @@
 {{#link-to 'index'}}Home{{/link-to}}
 {{#link-to 'protected'}}Protected{{/link-to}}
  
+{{#if session.isAuthenticated}}
+    <button {{ action 'invalidateSession' }}>Logout</button>
+{{else}}
+    {{#link-to 'login'}}Login{{/link-to}}
+{{/if}}
+
 <hr>
 {{outlet}}

@@ -48,5 +48,7 @@ app.import('vendor/ic-ajax/dist/named-amd/main.js', {
   ]
 });
 
+app.import('vendor/ember-simple-auth/ember-simple-auth.js');
+app.import('vendor/ember-simple-auth/ember-simple-auth-devise.js');
 
 module.exports = app.toTree();
