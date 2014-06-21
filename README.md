@@ -6,11 +6,11 @@ Authenticate to a Rails/Devise server from an Ember CLI app.
 Step by step guide used to build this project: [ember-cli & ember-simple-auth-devise](http://givan.se/p/00000000)
 
 ## Build
-```
+```bash
 git clone git@github.com:givanse/ember-cli-simple-auth-devise.git
 ```
 
-```
+```bash
 cd my-backend
 bundle update
 rake db:migrate
@@ -19,7 +19,7 @@ rails server
 ```
 You can sign up and log in from the server pages.
 
-```
+```bash
 cd my-frontend
 npm install
 bower update
