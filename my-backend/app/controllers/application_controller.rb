@@ -8,6 +8,8 @@ class ApplicationController < ActionController::Base
   private
  
     def authenticate_user_from_token!
+      use_dummy_session
+
       authenticate_with_http_token do |token, options|
         user_email = options[:user_email].presence
         user       = user_email && User.find_by_email(user_email)
@@ -17,4 +19,11 @@ class ApplicationController < ActionController::Base
         end
       end
     end
+
+  def use_dummy_session
+    return unless request.format.xml? || request.format.json?
+    env["rack.session.id"] = 1000 # used to avoid generate_sid() 
+    env["rack.session.options"][:drop] = true 
+  end
+
 end
