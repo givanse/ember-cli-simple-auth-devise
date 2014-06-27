@@ -34,3 +34,8 @@ Two accounts will be already available for log in:
 green@mail.com // 12345678
  pink@mail.com // 12345678
 ```
+
+## About
+Authentication is done using [ember-simple-auth](https://github.com/simplabs/ember-simple-auth) with [ember-cli-simple-auth-devise](https://github.com/simplabs/ember-cli-simple-auth-devise).
+
+The backend has been disabled to send session cookies for json and xml requests, see [commit#b803fad](https://github.com/givanse/ember-cli-simple-auth-devise/commit/b803fad136d596af4d89b87ac18ca2ebe7065774). For other options, check this thread: [ember-simple-auth#201](https://github.com/simplabs/ember-simple-auth/issues/201)
