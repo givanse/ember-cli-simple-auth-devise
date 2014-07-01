@@ -7,8 +7,10 @@ Step by step guide used to build this project: [ember-cli & ember-simple-auth-de
 
 ## Current version
 
-ember-cli 0.0.37
-ember-simple-auth 0.6.2
+The project is currently using:
+
+ * ember-cli 0.0.37
+ * ember-simple-auth 0.6.2
 
 ## Build
 ```bash
