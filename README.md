@@ -24,7 +24,6 @@ rake db:migrate
 rake db:seed
 rails server
 ```
-You can sign up and log in from the server pages.
 
 ```bash
 cd my-frontend
