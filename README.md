@@ -9,8 +9,9 @@ Step by step guide used to build this project: [ember-cli & ember-simple-auth-de
 
 The project is currently using:
 
- * ember-cli 0.0.40
- * ember-simple-auth 0.6.4
+ * ember-cli 0.1.1
+ * ember-simple-auth 0.6.7
+ * rails 4.0.2
 
 ## Build
 ```bash
