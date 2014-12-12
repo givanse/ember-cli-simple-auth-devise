@@ -11,7 +11,7 @@ The project is currently using:
 
  * ember-cli 0.1.1
  * ember-simple-auth 0.6.7
- * rails 4.0.2
+ * rails 4.1.8
 
 ## Build
 ```bash
