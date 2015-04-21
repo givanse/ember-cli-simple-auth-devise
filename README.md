@@ -3,7 +3,7 @@ ember-cli-simple-auth-devise
 
 Authenticate to a Rails/Devise server from an Ember CLI app. 
 
-Step by step guide used to build this project: [ember-cli & ember-simple-auth-devise](http://givan.se/p/00000000)
+Step by step guide used to build this project: [ember-cli & ember-simple-auth-devise](http://givan.se/ember-cli-simple-auth-devise/)
 
 ## Current version
 
